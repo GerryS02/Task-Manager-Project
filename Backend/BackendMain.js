@@ -34,11 +34,21 @@ app.post("/tm/tasks", async (req,res)=> {
 app.post("/tm/tasks", async (req,res)=> {
     try {
         const updated = await data.find({name:JSON.stringify(req)});
+        await updated.save();
+    } catch {
+        res.send(error);
+    }
+});
+
+//Accepts name, deletes data
+app.post("/tm/tasks", async (req,res)=> {
+    try {
+        const deleted = await data.deleteone({name:JSON.stringify(req)});
+        console.log(deleted);
     } catch {
         res.send(error);
     }
 })
-
 const port = 8080;
 const appName = "Task Manager";
 
