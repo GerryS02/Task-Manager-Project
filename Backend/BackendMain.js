@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
+const path = require("path"); //updated
 const connectDB = require("./connect"); //XConnect to remote DB
+
+app.use(express.static(path.join(__dirname, "public"))); //updated
 
 // Middleware
 app.use(express.json());
