@@ -9,7 +9,6 @@
 1. **Open Terminal in the `backend` folder**  
    Navigate to the `backend` directory in your VS Code terminal or file system:
 
-   ```bash
    cd Backend
 
 2. **Install Node.js Dependecies**
@@ -20,5 +19,4 @@
 
 4. **Open the app in the browser**
    http://localhost:8080/
-   
    
