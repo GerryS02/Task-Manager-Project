@@ -12,14 +12,11 @@
    cd Backend
 
 3. **Install Node.js Dependecies**
-4. <br>
-    npm install
+   npm install
 
 5. **start the backend server**
-6. <br>
    node BackendMain.js
 
 7. **Open the app in the browser**
-8. <br>
    http://localhost:8080/
    
