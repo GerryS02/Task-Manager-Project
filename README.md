@@ -1,6 +1,6 @@
 # Task-Manager-Project
 # First attempt at Backend by Thomas R.
-# Froented designed by Gerry
+# Frontend designed by Gerry
 # _____ by _____
 
 <hr>
