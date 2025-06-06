@@ -6,17 +6,20 @@
 <hr>
 ## How to Run the Project
 
-1. **Open Terminal in the `backend` folder**  
+1. **Open Terminal in the `backend` folder**
    Navigate to the `backend` directory in your VS Code terminal or file system:
 
    cd Backend
 
-2. **Install Node.js Dependecies**
+3. **Install Node.js Dependecies**
+4. <br>
     npm install
 
-3. **start the backend server**
+5. **start the backend server**
+6. <br>
    node BackendMain.js
 
-4. **Open the app in the browser**
+7. **Open the app in the browser**
+8. <br>
    http://localhost:8080/
    
